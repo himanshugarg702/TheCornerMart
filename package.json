@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon server.js",
     "start": "node server.js",
-    "client":"npm start --prefix ./Grocery_Store_Frontend",
+    "client":"npm start --prefix ./grocerystore",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "Himanshu garg",
